@@ -1,0 +1,86 @@
+@import "../styles/utils.module.scss";
+
+.avatar {
+  height: 128px;
+  width: 128px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.socialsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  @media (min-width: $screen-md) {
+    width: 75%;
+  }
+}
+
+.socialIcon {
+  width: 32px;
+  height: 32px;
+  color: $basicGreen;
+  cursor: pointer;
+}
+
+.name {
+  margin: 16px 0;
+  letter-spacing: 0.05rem;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.position {
+  padding: 4px 8px;
+  margin: 12px;
+  background-color: $lightGray;
+  border-radius: 10px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 12px;
+  background-color: $lightGray;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.address {
+  &Wrapper {
+    margin: 20px -16px;
+    padding: 16px 0;
+    background-color: $lightGray;
+  }
+
+  &LocationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.contact {
+  margin: 8px 0;
+}
+
+.button {
+  background-image: linear-gradient(to right, rgb(74 222 128), rgb(96 165 250));
+  width: 66%;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  margin: 8px;
+}

@@ -1,0 +1,35 @@
+@import "./styles/utils.module.scss";
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 24px;
+  margin: 56px 0;
+  padding: 0 20px;
+
+  @media (min-width: $screen-lg) {
+    padding: 0 192px;
+  }
+}
+
+.sidebar {
+  grid-column: span 12;
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+
+  @media (min-width: $screen-lg) {
+    grid-column: span 3;
+  }
+}
+
+.content {
+  grid-column: span 12;
+  background-color: white;
+  border-radius: 10px;
+
+  @media (min-width: $screen-lg) {
+    grid-column: span 9;
+  }
+}
