@@ -1,4 +1,4 @@
-@import "../styles/utils.module.scss";
+@import "../../styles/utils.module.scss";
 
 .avatar {
   height: 128px;
@@ -38,10 +38,14 @@
   line-height: 36px;
 }
 
+.firstName {
+  color: $greenDefault;
+}
+
 .position {
   padding: 4px 8px;
   margin: 12px;
-  background-color: $lightGray;
+  // background-color: $lightGray;
   border-radius: 10px;
 }
 
@@ -51,7 +55,6 @@
   align-items: center;
   padding: 4px 8px;
   margin: 12px;
-  background-color: $lightGray;
   border-radius: 10px;
   text-decoration: none;
   color: inherit;
@@ -61,7 +64,6 @@
   &Wrapper {
     margin: 20px -16px;
     padding: 16px 0;
-    background-color: $lightGray;
   }
 
   &LocationWrapper {
@@ -76,11 +78,16 @@
 }
 
 .button {
-  background-image: linear-gradient(to right, rgb(74 222 128), rgb(96 165 250));
+  background-image: linear-gradient(to right, $greenDefault, $blueDefault);
   width: 66%;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
   color: white;
   margin: 8px;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
 }

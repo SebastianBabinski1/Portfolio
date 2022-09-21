@@ -1,0 +1,36 @@
+@import "../../styles/utils.module.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+.item {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: $font-md;
+
+  &Name {
+    &:hover {
+      color: $greenDefault;
+    }
+  }
+}
+
+.activeItem {
+  font-weight: bold;
+  color: $greenDefault;
+  font-size: $font-bg;
+  border-bottom: 4px solid $greenDefault;
+
+  @media (min-width: $screen-md) {
+    font-size: $font-lg;
+  }
+}
+
+.itemsWrapper {
+  display: flex;
+  font-size: large;
+}

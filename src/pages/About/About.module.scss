@@ -1,0 +1,40 @@
+@import "../../styles/utils.module.scss";
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.description {
+  margin: 10px 20px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.servicesWrapper {
+  display: grid;
+  gap: 24px;
+
+  @media (min-width: $screen-lg) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.serviceWrapper {
+  border-radius: 10px;
+
+  @media (min-width: $screen-lg) {
+    grid-column: span 1 / span 1;
+  }
+}
+
+.header {
+  margin: 10px 0;
+  font-size: $font-bg;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}

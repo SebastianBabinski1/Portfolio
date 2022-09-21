@@ -1,3 +1,6 @@
+$greenDefault: rgb(0, 242, 96);
+$blueDefault: rgb(96, 165, 250);
+
 $lightGray: rgb(229 231 235);
 $basicGreen: rgb(16, 185, 129);
 
@@ -5,3 +8,74 @@ $basicGreen: rgb(16, 185, 129);
 $screen-sm: 320px;
 $screen-md: 768px;
 $screen-lg: 1200px;
+
+// Font sizes:
+$font-sm: 8px;
+$font-md: 16px;
+$font-bg: 20px;
+$font-lg: 24px;
+
+// Dark colors:
+
+$darkDefault: rgb(1, 1, 1);
+$dark100: rgb(10, 11, 14);
+$dark200: rgb(22, 24, 29);
+$dark300: rgb(22, 24, 29);
+$dark500: rgb(15, 17, 21);
+$dark700: rgb(32, 33, 37);
+
+$boxShadow: 2px 5px 20px #0a0c0e;
+
+.dark {
+  &Default {
+    color: white;
+    background-color: $darkDefault;
+  }
+  &100 {
+    color: white;
+    background-color: $dark100;
+  }
+  &200 {
+    color: white;
+    background-color: $dark200;
+  }
+  &300 {
+    color: white;
+    background-color: $dark300;
+  }
+  &500 {
+    color: white;
+    background-color: $dark500;
+  }
+  &700 {
+    color: white;
+    background-color: $dark700;
+  }
+}
+
+.light {
+  &Default {
+    color: black;
+    background-color: white;
+  }
+  &100 {
+    color: black;
+    background-color: $lightGray;
+  }
+  &200 {
+    color: black;
+    background-color: $lightGray;
+  }
+  &300 {
+    color: black;
+    background-color: $lightGray;
+  }
+  &500 {
+    color: black;
+    background-color: $lightGray;
+  }
+  &700 {
+    color: black;
+    background-color: $lightGray;
+  }
+}

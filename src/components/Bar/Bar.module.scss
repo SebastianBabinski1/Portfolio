@@ -1,0 +1,19 @@
+@import "../../styles/utils.module.scss";
+
+.barWrapper {
+  border-radius: 20px;
+  color: white;
+  margin: 10px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, $greenDefault, $blueDefault);
+  padding: 5px 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+@import "../../../styles/utils.module.scss";
+
+.projectsNavbar {
+  display: flex;
+  padding: 10px 15px;
+  overflow-x: auto;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.navItem {
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover {
+    color: $greenDefault;
+  }
+}
+
+.active {
+  color: $greenDefault;
+}
