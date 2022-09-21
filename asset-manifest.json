@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a781ad55.css",
+    "main.js": "/Portfolio/static/js/main.a71ff979.js",
+    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.665eeb34c9d19d4fe283.jpg",
+    "static/media/newsSite.jpg": "/Portfolio/static/media/newsSite.5406af20fd26d173e856.jpg",
+    "static/media/trollo.jpg": "/Portfolio/static/media/trollo.c32d714d3f1e3a014565.jpg",
+    "static/media/Sebastian Bąbiński - CV.pdf": "/Portfolio/static/media/Sebastian Bąbiński - CV.905883fa0ee94f6cd7ce.pdf",
+    "static/media/florists.jpg": "/Portfolio/static/media/florists.29e79ec355e8b6e1d228.jpg",
+    "static/media/chess.jpg": "/Portfolio/static/media/chess.608e3e250bba9e87edc0.jpg",
+    "static/media/evacuationSimulation.png": "/Portfolio/static/media/evacuationSimulation.7b14c5818817fd39024a.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a781ad55.css.map": "/Portfolio/static/css/main.a781ad55.css.map",
+    "main.a71ff979.js.map": "/Portfolio/static/js/main.a71ff979.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a781ad55.css",
+    "static/js/main.a71ff979.js"
+  ]
+}
