@@ -36,6 +36,7 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: $boxShadow;
+  position: relative;
 
   @media (min-width: $screen-lg) {
     grid-column: span 9;

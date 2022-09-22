@@ -91,6 +91,11 @@ export const languages: ISkill[] = [
     level: "30%",
     Icon: BsCircleFill,
   },
+  {
+    name: "Webpack",
+    level: "30%",
+    Icon: BsCircleFill,
+  },
 ];
 
 export const tools: ISkill[] = [
@@ -117,6 +122,16 @@ export const tools: ISkill[] = [
   {
     name: "Revit",
     level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Miro",
+    level: "80%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Trello",
+    level: "80%",
     Icon: BsCircleFill,
   },
 ];

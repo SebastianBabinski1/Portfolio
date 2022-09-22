@@ -11,7 +11,10 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 24px;
   margin: 10px 0;
-  position: relative;
+
+  @media (max-width: $screen-md) {
+    position: relative;
+  }
 }
 
 .projectWrapper {

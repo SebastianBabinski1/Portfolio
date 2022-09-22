@@ -48,7 +48,11 @@ const ProjectCard: FunctionComponent<{
         >
           <div>
             <motion.div variants={fadeInUp}>
-              <img src={image_path} alt={name} className={styles.image} />
+              <img
+                src={image_path}
+                alt={name}
+                className={`${styles.image} ${styles.modalImage}`}
+              />
             </motion.div>
             <motion.div className={styles.linksWrapper} variants={fadeInUp}>
               <a
@@ -56,6 +60,8 @@ const ProjectCard: FunctionComponent<{
                   darkTheme ? utilsStyles.dark700 : utilsStyles.light100
                 } ${styles.links} `}
                 href={github_url}
+                target="_blank"
+                rel="noreferrer"
               >
                 <AiFillGithub />
                 <span>Github</span>
@@ -65,6 +71,8 @@ const ProjectCard: FunctionComponent<{
                   darkTheme ? utilsStyles.dark700 : utilsStyles.light100
                 } ${styles.links} `}
                 href={deployed_url}
+                target="_blank"
+                rel="noreferrer"
               >
                 <AiFillProject />
                 <span>Project</span>
@@ -97,8 +105,9 @@ const ProjectCard: FunctionComponent<{
             className={`${
               darkTheme ? utilsStyles.dark700 : utilsStyles.lightDefault
             } ${styles.close} `}
+            onClick={() => setShowDetail(null)}
           >
-            <span onClick={() => setShowDetail(null)}>x</span>
+            <span>x</span>
           </button>
         </motion.div>
       )}

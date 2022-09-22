@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
-import { AnimatePresence } from "framer-motion";
 
 const currentDarkTheme =
   localStorage.getItem("darkTheme") === "true" ? true : false;
