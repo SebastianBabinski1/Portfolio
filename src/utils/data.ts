@@ -17,7 +17,7 @@ export const services: IService[] = [
   {
     title: "CodersCamp 2021 5-month course completed",
     about:
-      "Completed  course of web programming: <b> HTML5 </b>, <b> CSS3/SCSS </b>, <b> JavaScript </b>, <b>TypeScript </b>, <b> Webpack </b>, <b> React </b>, <b> JEST </b>",
+      "Completed  course of web programming: <b> HTML5</b>, <b> CSS3/SCSS</b>, <b> JavaScript</b>, <b>TypeScript</b>, <b> Webpack</b>, <b> React</b>, <b> JEST</b>, <b> REST API</b>",
     Icon: RiComputerLine,
   },
   {

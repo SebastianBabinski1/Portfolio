@@ -38,7 +38,6 @@ const Bar: FunctionComponent<{
         initial="initial"
         animate="animate"
       >
-        <Icon className={styles.icon} />
         {name}
       </motion.div>
     </div>

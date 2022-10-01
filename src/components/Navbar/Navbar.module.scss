@@ -14,16 +14,16 @@
 
   &Name {
     &:hover {
-      color: $greenDefault;
+      color: $primaryColor;
     }
   }
 }
 
 .activeItem {
   font-weight: bold;
-  color: $greenDefault;
+  color: $primaryColor;
   font-size: $font-bg;
-  border-bottom: 4px solid $greenDefault;
+  border-bottom: 4px solid $primaryColor;
 
   @media (min-width: $screen-md) {
     font-size: $font-lg;

@@ -47,6 +47,7 @@
   "devDependencies": {
     "framer-motion": "^3.10.3",
     "gh-pages": "^4.0.0",
+    "jest": "^27.5.1",
     "react-icons": "^4.4.0",
     "sass": "^1.54.8"
   }

@@ -43,7 +43,7 @@ const ProjectCard: FunctionComponent<{
           initial="initial"
           animate="animate"
           className={`${
-            darkTheme ? utilsStyles.dark100 : utilsStyles.lightDefault
+            darkTheme ? utilsStyles.dark200 : utilsStyles.lightDefault
           } ${styles.modal} `}
         >
           <div>

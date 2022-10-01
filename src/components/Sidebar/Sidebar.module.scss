@@ -27,7 +27,7 @@
 .socialIcon {
   width: 32px;
   height: 32px;
-  color: $basicGreen;
+  color: $primaryColor;
   cursor: pointer;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .firstName {
-  color: $greenDefault;
+  color: $primaryColor;
 }
 
 .position {
@@ -78,7 +78,11 @@
 }
 
 .button {
-  background-image: linear-gradient(to right, $greenDefault, $blueDefault);
+  background-image: radial-gradient(
+    circle at center,
+    $primaryColor,
+    $secondaryColor
+  );
   width: 66%;
   border: none;
   border-radius: 20px;

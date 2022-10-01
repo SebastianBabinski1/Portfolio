@@ -28,6 +28,7 @@
   padding: 10px;
   box-shadow: $boxShadow;
   border-radius: 10px;
+  border: 2px solid $primaryColor;
 
   @media (min-width: $screen-md) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -38,7 +39,9 @@
   }
 
   &Image {
-    border: 5px solid $lightGray;
+    @media (min-width: $screen-md) {
+      border: 5px solid $lightGray;
+    }
     border-radius: 10px;
   }
 }
